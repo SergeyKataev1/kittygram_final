@@ -12,7 +12,7 @@ jobs:
     
     services:
       postgres:
-        image: postgres:13.10
+        image: postgres:13
         env:
           POSTGRES_USER: kittygram_user
           POSTGRES_PASSWORD: kittygram_password
