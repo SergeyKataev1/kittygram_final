@@ -28,7 +28,7 @@ services:
   
   gateway:
     image: sergeykataev1/kittygram_gateway
-    env_file: .env
+    # env_file: .env
     volumes:
       - static:/static
       - media:/app/media
